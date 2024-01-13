@@ -3,8 +3,17 @@ public with sharing class LearnDevOps {
 
         System.debug('would you like to learn DevOps?');
     }
-    public String void takeCourse(String courseName){
+    public String takeCourse(String courseName){
         
         return 'I want to learn '+courseName;
+    }
+    public Account createAccount(String name, String email){
+        Account ac = new Account();
+        ac.Name = name;
+        ac.Email = email;
+
+        insert ac;
+
+        return ac;
     }
 }
