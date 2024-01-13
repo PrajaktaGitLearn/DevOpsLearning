@@ -12,7 +12,12 @@ public with sharing class LearnDevOps {
         ac.Name = name;
         ac.Email = email;
 
-        insert ac;
+        try{
+            insert ac;
+        }catch(Exception e){
+            System.debug(e.getMessage());
+        }
+        
 
         return ac;
     }
