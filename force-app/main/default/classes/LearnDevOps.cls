@@ -11,11 +11,9 @@ public with sharing class LearnDevOps {
         Account ac = new Account();
         ac.Name = name;
 
-        try{
+        
             insert ac;
-        }catch(Exception e){
-            System.debug(e.getMessage());
-        }
+    
         
 
         return ac;
