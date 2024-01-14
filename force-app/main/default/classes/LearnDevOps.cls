@@ -10,15 +10,12 @@ public with sharing class LearnDevOps {
     public Account createAccount(String name, String email){
         Account ac = new Account();
         ac.Name = name;
-        ac.Email = email;
-
-        try{
+        
             insert ac;
-        }catch(Exception e){
-            System.debug(e.getMessage());
-        }
+        
         
 
         return ac;
     }
+    
 }
