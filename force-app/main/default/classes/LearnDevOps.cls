@@ -48,6 +48,9 @@ public with sharing class LearnDevOps {
         return c;
 
     }
+    public static String finalBye(){
+        return 'Hey!! Bbyeeee... See you soon.....';
+    }
             
 
 
