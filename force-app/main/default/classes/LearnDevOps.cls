@@ -23,7 +23,7 @@ public with sharing class LearnDevOps {
         return 'Hey!! How are you? Good  morning....';
     }     
 
-    } 
+   
     public static Contact createContact(String lastname,String firstname){
 
         Contact con = new Contact();
@@ -35,10 +35,4 @@ public with sharing class LearnDevOps {
         
     }
             
-
-          
-
-
-
-      
 }
