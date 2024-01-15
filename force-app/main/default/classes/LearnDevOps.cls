@@ -17,10 +17,28 @@ public with sharing class LearnDevOps {
         ac.Name = name;
         insert ac ;
         return ac;
+
     }  
     public static String greetings(){
         return 'Hey!! How are you? Good  morning....';
     }     
+
+    } 
+    public static Contact createContact(String lastname,String firstname){
+
+        Contact con = new Contact();
+        con.LastName = lastname ;
+        con.FirstName = firstname; 
+        insert con; 
+        
+        return con;
+        
+    }
+            
+
+          
+
+
 
       
 }
