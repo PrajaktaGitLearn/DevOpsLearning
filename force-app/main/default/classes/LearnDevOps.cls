@@ -15,7 +15,10 @@ public with sharing class LearnDevOps {
         ac.Name = name;
         insert ac ;
         return ac;
-    }       
+    }  
+    public static String greetings(){
+        return 'Hey!! How are you? Good  morning....';
+    }     
 
       
 }
