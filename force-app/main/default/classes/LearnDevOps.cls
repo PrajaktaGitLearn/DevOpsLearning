@@ -23,7 +23,7 @@ public with sharing class LearnDevOps {
         return 'Hey!! How are you? Good  morning....';
     }     
 
-   
+
     public static Contact createContact(String lastname,String firstname){
 
         Contact con = new Contact();
@@ -34,5 +34,23 @@ public with sharing class LearnDevOps {
         return con;
         
     }
+
+    public static Case createCase(String subject,String theme, String category, String origin ){
+
+        Case c = new Case();
+        c.Subject = subject;
+        c.Theme = theme;
+        c.Category = category;
+        c.Origin = origin;
+
+        insert c;
+
+        return c;
+
+    }
             
+
+
+            
+
 }
