@@ -51,7 +51,9 @@ public with sharing class LearnDevOps {
     public static String finalBye(){
         return 'Hey!! Bbyeeee... See you soon.....';
     }
-            
+    public static String iamback(){
+        return 'hey how\'s evrything going ? ';
+    }     
 
 
             
