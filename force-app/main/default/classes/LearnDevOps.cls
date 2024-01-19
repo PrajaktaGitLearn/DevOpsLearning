@@ -23,7 +23,7 @@ public with sharing class LearnDevOps {
         return 'Hey!! How are you? Good  morning....';
     }     
 
-    
+
     public static Contact createContact(String lastname,String firstname){
 
         Contact con = new Contact();
@@ -34,6 +34,7 @@ public with sharing class LearnDevOps {
         return con;
         
     }
+
     public static Case createCase(String subject,String theme, String category, String origin ){
 
         Case c = new Case();
@@ -47,6 +48,14 @@ public with sharing class LearnDevOps {
         return c;
 
     }
+    public static String finalBye(){
+        return 'Hey!! Bbyeeee... See you soon.....';
+    }
+    public static String iamback(){
+        return 'hey how\'s evrything going ? ';
+    }     
+
+
             
 
 }
