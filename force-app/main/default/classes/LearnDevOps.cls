@@ -55,6 +55,9 @@ public with sharing class LearnDevOps {
         return 'hey how\'s evrything going ? ';
     }     
 
+    public static String greatToComeBack(){
+        return 'Nice to see you back.... after a long time...';
+    }
 
             
 
